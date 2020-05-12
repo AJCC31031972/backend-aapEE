@@ -1,10 +1,11 @@
-package pe.gob.mtpe.backend.appee.models.services;
+package pe.gob.mtpe.backend.appee.models.services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import pe.gob.mtpe.backend.appee.models.dao.IRegempresaDao;
 import pe.gob.mtpe.backend.appee.models.entity.Regempresa;
+import pe.gob.mtpe.backend.appee.models.services.IRegempresaService;
 
 import java.util.List;
 
